@@ -13,6 +13,8 @@ TEMPLATE = lib
 
 DEFINES += BILLOLOGIC_LIBRARY
 
+CONFIG += dll c++14 optimise_full
+
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked as deprecated (the exact warnings
 # depend on your compiler). Please consult the documentation of the
@@ -25,14 +27,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        billologic.cpp \
     productitem.cpp \
-    userprofile.cpp
+    userprofile.cpp \
+    Interface.cpp \
+    billoodata.cpp
 
 HEADERS += \
-        billologic.h \
     productitem.h \
-    userprofile.h
+    userprofile.h \
+    Interface.h \
+    billoodata.h
 
 unix {
     target.path = /usr/lib

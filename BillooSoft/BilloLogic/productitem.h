@@ -13,10 +13,10 @@ public:
 
     int itemCode;
     QString itemName;       // Products name
-    QString ItemDescription;// Products Description
+    QString itemDescription;// Products Description
     QString itemHSN_SAC;    // Products HSN/SAC
-    //unit //TODO add later
-    //Price //TODO add later
+    QString itemUnit; //TODO add later
+    QString itemPrice; //TODO add later
 
 };
 }
