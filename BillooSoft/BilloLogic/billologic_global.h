@@ -1,0 +1,12 @@
+#ifndef BILLOLOGIC_GLOBAL_H
+#define BILLOLOGIC_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(BILLOLOGIC_LIBRARY)
+#  define BILLOLOGICSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define BILLOLOGICSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // BILLOLOGIC_GLOBAL_H
