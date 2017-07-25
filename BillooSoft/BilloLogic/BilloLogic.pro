@@ -26,12 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         billologic.cpp \
-    productitem.cpp
+    productitem.cpp \
+    userprofile.cpp
 
 HEADERS += \
         billologic.h \
-        billologic_global.h \ 
-    productitem.h
+    productitem.h \
+    userprofile.h
 
 unix {
     target.path = /usr/lib
