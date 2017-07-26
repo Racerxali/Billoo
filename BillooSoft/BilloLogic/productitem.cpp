@@ -1,7 +1,11 @@
 #include "productitem.h"
+
+
 namespace BillooSoft
 {
-ProductItem::ProductItem()
+
+int ProductItem::codeSequence=0;
+ProductItem::ProductItem():itemCode(codeSequence+1)
 {
 
 }

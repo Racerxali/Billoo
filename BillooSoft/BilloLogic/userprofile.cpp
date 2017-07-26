@@ -5,4 +5,9 @@ UserProfile::UserProfile()
 {
 
 }
+
+UserProfile::~UserProfile()
+{
+
+}
 }

@@ -9,8 +9,7 @@ class UserProfile
 {
 public:
     UserProfile();
-
-private:
+    ~UserProfile();
 
     //---Login details
     /*none for now*/
