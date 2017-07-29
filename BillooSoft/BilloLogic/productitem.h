@@ -17,7 +17,7 @@ public:
     ProductItem();
 
     int itemCode;
-    QString itemNam="";       // Products name
+    QString itemName="";       // Products name
     QString itemDescription="";// Products Description
     QString itemHSN_SAC="";    // Products HSN/SAC
     ItemUnit itemUnit=ItemUnit::custom; //TODO add later

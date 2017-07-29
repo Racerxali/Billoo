@@ -19,6 +19,8 @@ public:
 
     UserProfile currentProfile ;
 
+    void addNewItem(QString name);
+    void addNewProfile();
 
 private:
 
