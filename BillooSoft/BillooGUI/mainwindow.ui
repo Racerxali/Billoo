@@ -23,6 +23,20 @@
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuAdmin">
+    <property name="title">
+     <string>Main</string>
+    </property>
+    <addaction name="actionSales"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionAdd_New_Item"/>
+   </widget>
+   <addaction name="menuAdmin"/>
+   <addaction name="menuTools"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -33,6 +47,16 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionSales">
+   <property name="text">
+    <string>Sales</string>
+   </property>
+  </action>
+  <action name="actionAdd_New_Item">
+   <property name="text">
+    <string>Add New Item</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>

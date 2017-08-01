@@ -26,12 +26,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    salesdialog.cpp
+    salesdialog.cpp \
+    addnewitem.cpp
 
 HEADERS += \
         mainwindow.h \
-    salesdialog.h
+    salesdialog.h \
+    addnewitem.h
 
 FORMS += \
         mainwindow.ui \
-    salesdialog.ui
+    salesdialog.ui \
+    addnewitem.ui
