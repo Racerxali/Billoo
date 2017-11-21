@@ -1,3 +1,17 @@
+
+int findNumberofConsonants(std::string str)
+{
+    int consonants=0;
+    for(auto &var:str)
+    {
+        if(var!='a' && var!='e' && var!='i' && var !='o' && var!='u'  )
+        {
+            consonants++;
+        }
+    }
+    return consonants;
+}
+
 int Consonant(std::string input1,int input2)
 {
     std::map<int,std::vector<std::string>,std::less<int>>allSubstringsMap;
